@@ -11,14 +11,23 @@ nb-card
   align-items: center;
 }
 
-// a:active{
-//   background-color:#6f42c1 !important;
-//   border-color: #6f42c1;
-//   // color: ;
+a:hover
+{
+  background-color:#6f42c1 !important;
+  border-color: #6f42c1  !important;
 
-// }
+}
 
 a:active{
   background-color:#6f42c1 !important;
-  border-color: #6f42c1;
+  border-color: #6f42c1  !important;
+  // color: ;
+
 }
+
+
+
+// a:active{
+//   background-color:#6f42c1 !important;
+//   border-color: #6f42c1;
+// }
