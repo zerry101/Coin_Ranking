@@ -1,9 +1,15 @@
 <nb-card class="card">
   <nb-card-body class="example-items-rows">
     <a nbButton status="warning" class="btnrow">BTC</a>
-    <a nbButton status="warning" class="btnrow" routerLinkActive="ETH">ETH</a>
+    <a nbButton status="warning"
+    class="btnrow"
+     [routerLink]="['ETH']"
+      routerLinkActive="router-link-active"
+      >ETH
+    </a>
     <a nbButton status="warning" class="btnrow">USD</a>
     <a nbButton status="warning" class="btnrow">EUR</a>
     <a nbButton status="warning" class="btnrow">BTC</a>
   </nb-card-body>
 </nb-card>
+<router-outlet></router-outlet>
