@@ -31,6 +31,8 @@ import { WatchlistComponent } from './watchlist/watchlist.component';
 import { CalendarsComponent } from './calendars/calendars.component';
 import { ProductsComponent } from './products/products.component';
 import {RouterModule} from '@angular/router';
+import { ETHComponent } from './crypto-currency/eth/eth.component';
+
 
 // import { NavbarComponent } from './navbar/navbar.component';
 
@@ -67,7 +69,9 @@ const THEME_MODULE = [
          ExchangesComponent,
          WatchlistComponent,
          CalendarsComponent,
-         ProductsComponent
+         ProductsComponent,
+         ETHComponent,
+
   ],
   imports: [CommonModule, THEME_MODULE,RouterModule],
   exports: [THEME_MODULE],
