@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { CalendarsComponent } from './@theme/calendars/calendars.component';
 import { CryptoCurrencyComponent } from './@theme/crypto-currency/crypto-currency.component';
+import { ETHComponent } from './@theme/crypto-currency/eth/eth.component';
 import { ExchangesComponent } from './@theme/exchanges/exchanges.component';
 import { ProductsComponent } from './@theme/products/products.component';
 import { WatchlistComponent } from './@theme/watchlist/watchlist.component';
@@ -27,7 +28,12 @@ const routes: Routes = [
 {
   path:'Products',
   component:ProductsComponent
+},
+{
+  path:'ETH',
+  component:ETHComponent
 }
+
 
 
 ];
