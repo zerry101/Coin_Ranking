@@ -1,0 +1,105 @@
+<nav class="navbar navbar-expand-lg" style="width: 100%">
+  <!--  -->
+  <a class="navbar-brand" href="#" style="margin: 0px 15px">
+    <div>
+      <img
+        src="https://cdn.coinranking.com/assets/64374966bb4cd0691a9429341ae9b413.svg"
+        width="28"
+        height="28"
+        alt="Coinranking cryptocurrency prices"
+        class="logo__img"
+      />
+      Coinranking
+    </div>
+    <!-- </button> -->
+  </a>
+  <button
+    class="navbar-toggler"
+    type="button"
+    data-toggle="collapse"
+    data-target="#navbarSupportedContent"
+    aria-controls="navbarSupportedContent"
+    aria-expanded="false"
+    aria-label="Toggle navigation"
+  >
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse"></div>
+  <div
+    class="collapse navbar-collapse justify-content-between"
+    id="navbarSupportedContent"
+  >
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active" style="margin: 0px 25px">
+        <a
+          class="nav-link ml-4"
+          [routerLink]="['CryptoCurrency']"
+          routerLinkActive="router-link-active"
+          >Crypto Currency</a
+        >
+      </li>
+      <li class="nav-item active" style="margin: 0px 25px">
+        <a
+          class="nav-link ml-4"
+          [routerLink]="['Exchanges']"
+          routerLinkActive="router-link-active"
+          >Exchanges</a
+        >
+      </li>
+      <li class="nav-item" style="margin: 0px 25px">
+        <a
+          class="nav-link"
+          [routerLink]="['Watchlist']"
+          routerLinkActive="router-link-active"
+          >Watchlist</a
+        >
+      </li>
+      <li class="nav-item" style="margin: 0px 25px">
+        <a
+          class="nav-link"
+          [routerLink]="['Calendars']"
+          routerLinkActive="router-link-active"
+          >Calendar</a
+        >
+      </li>
+      <li class="nav-item" style="margin: 0px 25px">
+        <a
+          class="nav-link"
+          [routerLink]="['Products']"
+          routerLinkActive="router-link-active"
+          >Products</a
+        >
+      </li>
+      <!-- <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Dropdown
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+      </li> -->
+      <!-- <li class="nav-item" style="margin:0px 50px;"> -->
+      <!-- <a class="nav-link disabled" href="#">Disabled</a> -->
+      <!-- </li> -->
+    </ul>
+    <form
+      class="form-inline my-2 my-lg-0"
+      style="display: flex; margin: 0px 15px"
+    >
+      <input
+        class="form-control mr-sm-2"
+        style="margin: 0px 10px"
+        type="search"
+        placeholder="Search"
+        aria-label="Search"
+      />
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+        Search
+      </button>
+    </form>
+  </div>
+</nav>
